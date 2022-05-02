@@ -1,0 +1,28 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "Homepage for Studion Events provider and services",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Beckhauser/Studion_Project.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Carlos Beckhauser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos-Beckhauser/Studion_Project/issues"
+  },
+  "homepage": "https://github.com/Carlos-Beckhauser/Studion_Project#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
