@@ -3,19 +3,6 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css);
 
-* {
-    box-sizing: border-box;
-}
-
-:root {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    --color-copy: #333;
-    --color-primary: #ffc500;
-    --default-padding: 1rem;
-    color: var(--color-copy);
-}
-
 body {
     margin: 0;
     padding-top: 7.75rem;
@@ -76,6 +63,9 @@ ul {
     text-decoration: none;
 }
 
+.navbar__links a.active {
+    color: var(--color-primary);
+}
 .navbar__links a:hover {
     color: var(--color-primary);
 }
@@ -87,6 +77,11 @@ ul {
     /*unidade de medida relativa ao tamanho do zero da fonte*/
     text-transform: uppercase;
     text-align: right;
+}
+
+.logo-studion a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .logo-studion__subtitle {
