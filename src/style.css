@@ -3,11 +3,17 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css);
 
+/*Utilitários*/
 @import "./css/_variables.css";
 @import "./css/_base.css";
-@import "./css/_navbar.css";
 @import "./css/_utils.css";
+@import "./css/_btn.css";
+
+/*Componentes Reaproveitados*/
+@import "./css/_navbar.css";
+@import "./css/_footer.css";
+@import "./css/_hero.css";
+
+/*Páginas do Site*/
 @import "./css/_home.css";
 @import "./css/_contacts.css";
-@import "./css/_btn.css";
-@import "./css/_footer.css";
