@@ -1,0 +1,14 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact__infor__container,
+.contact__form__container {
+  width: 540px;
+}
+
+.contact__form {
+  background-color: black;
+  color: white;
+}
