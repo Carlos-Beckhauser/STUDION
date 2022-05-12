@@ -3,12 +3,23 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.contact__infor__container,
+.contact__info__container,
 .contact__form__container {
   width: 540px;
+}
+
+.contact__info__container {
+  float: right;
 }
 
 .contact__form {
   background-color: black;
   color: white;
+}
+
+.contact__info span {
+  display: block;
+}
+
+.contact__info i {
 }
