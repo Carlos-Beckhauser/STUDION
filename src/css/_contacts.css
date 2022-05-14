@@ -7,7 +7,7 @@
   margin: 0;
   margin-bottom: 1.875rem;
   font-weight: 700;
-  font-size: 1.5625rem;
+  font-size: 1.7rem;
 }
 
 .contact__info h3:nth-of-type(2) {
@@ -19,15 +19,9 @@
   padding: 4rem 0;
 }
 
-.contact__form {
-  background-color: black;
-  color: white;
-}
-
 .contact__info i {
   font-size: 1.5rem;
   color: var(--color-primary);
-  line-height: 1.6875rem;
 }
 
 .contact__info span,
@@ -37,16 +31,17 @@
 }
 
 .contact__info span {
-  font-weight: 600;
+  font-weight: 800;
+  display: grid;
+  grid-template-columns: 1.5rem auto;
+  gap: 0.625rem;
+  align-items: top;
+  font-family: "Roboto";
+  line-height: 1.6875rem;
 }
 
 .contact__info span:nth-of-type(3) {
-  max-width: 31ch;
   padding-bottom: 14rem;
-}
-
-.contact__form button {
-  float: right;
 }
 
 .contact__info__container,
@@ -59,6 +54,32 @@
   padding-right: 7.125rem;
 }
 
+.contact__form {
+  background-color: black;
+  color: white;
+}
+
+.contact__form button {
+  float: right;
+  margin-top: 1.75rem;
+}
+
 .contact__form__container {
   padding-left: 7.125rem;
+}
+
+.contact__form label {
+  font-weight: 700;
+  padding-top: 1.5rem;
+}
+
+.contact__form input {
+  width: 100%;
+  background: unset;
+  border: unset;
+  border-bottom: 0.06rem solid #fff;
+  color: #fff;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  padding-bottom: 2.1875rem;
 }
