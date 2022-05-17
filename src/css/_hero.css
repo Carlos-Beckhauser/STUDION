@@ -17,7 +17,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 50vw;
+  width: 57vw;
   padding: 7rem 1.875rem;
 }
 
@@ -35,4 +35,6 @@
   font-size: 0.9375rem;
   line-height: 1.875rem;
   color: var(--color-copy--alt);
+  text-align: justify;
+  width: 37.625rem;
 }
