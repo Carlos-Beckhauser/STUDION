@@ -96,6 +96,12 @@
   color: rgb(0, 0, 0);
 }
 
+.fa-play-circle:hover,
+.footer__social a .fa-twitter:hover,
+.fa-facebook:hover {
+  color: var(--color-primary);
+}
+
 .footer hr {
   border-color: #fff4;
 }
