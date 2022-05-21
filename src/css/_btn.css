@@ -55,3 +55,7 @@
   border-color: var(--color-primary);
   box-shadow: 0 1rem 1rem #0006;
 }
+
+.btn--events {
+  padding: 1rem 1.5rem;
+}
