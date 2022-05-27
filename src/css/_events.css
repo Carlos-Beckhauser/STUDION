@@ -1,10 +1,55 @@
 .events {
   height: 1502px;
+  position: relative;
 }
 
-.event__box h2 {
+.events__container {
+  margin-top: 5rem;
+  padding-bottom: 2.9375rem;
+}
+
+.events__container h2 {
   text-transform: uppercase;
-  font-size: 20px;
-  letter-spacing: 4px;
-  line-height: 18px;
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
+  line-height: 1.125rem;
+  color: var(--color-primary);
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+}
+
+.events__container h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.1875rem;
+  font-size: 0.9375rem;
+}
+
+.events__container p {
+  width: 31.625rem;
+  font-size: 1.0625rem;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.6875rem;
+  font-family: "Roboto";
+}
+
+.event__box {
+  position: absolute;
+  right: 35rem;
+  left: 39rem;
+  top: 1rem;
+}
+
+.events__container button {
+  position: absolute;
+  right: 30rem;
+  top: 6rem;
+}
+
+.event__line {
+  width: 65vw;
 }
