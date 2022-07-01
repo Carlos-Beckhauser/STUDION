@@ -1,12 +1,10 @@
-.box__focus {
-  height: 36rem;
-  background-color: #f5f5f5;
-  margin: 0;
+.events__container3 {
+  margin-top: 0;
+  padding-bottom: 2.9375rem;
 }
 
-.events__container3 {
-  margin-top: 2rem;
-  padding-bottom: 2.9375rem;
+.img__event3 {
+  margin-top: 5rem;
 }
 
 .event__box3 {
@@ -15,11 +13,6 @@
   left: 39rem;
   top: 42rem;
 }
-
-/* .events__container3 img {
-  position: absolute;
-  left: 23.7rem;
-} */
 
 .events__container3 h2 {
   text-transform: uppercase;
@@ -64,4 +57,23 @@
   position: absolute;
   right: 30rem;
   top: 47rem;
+}
+
+.event__line3 {
+  position: relative;
+  width: 65vw;
+  margin-bottom: 0;
+  margin-top: 0;
+  top: 26vh;
+}
+
+.eventbox3__focus {
+  position: absolute;
+  left: 20.5rem;
+  right: 20.5rem;
+  top: 34.4rem;
+  height: 35.2rem;
+  width: 78rem;
+  background-color: #33333314;
+  margin: 8px auto;
 }
