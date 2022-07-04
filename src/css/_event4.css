@@ -1,22 +1,19 @@
-.event__box2 {
-  position: absolute;
-  right: 35rem;
-  left: 39rem;
-  top: 18rem;
-}
-
-.events__container2 button {
-  position: absolute;
-  right: 30rem;
-  top: 23rem;
-}
-
-.events__container2 {
+.events__container4 {
+  position: relative;
+  top: 21rem;
+  height: 17.6875rem;
   margin-top: 2rem;
   padding-bottom: 2.9375rem;
 }
 
-.events__container2 h2 {
+.event__box4 {
+  position: absolute;
+  margin-top: 1.2rem;
+  left: 15rem;
+  top: 0;
+}
+
+.events__container4 h2 {
   text-transform: uppercase;
   font-size: 1.25rem;
   letter-spacing: 0.25rem;
@@ -26,7 +23,7 @@
   font-weight: 700;
 }
 
-.events__container2 h3 {
+.events__container4 h3 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -36,11 +33,17 @@
   font-size: 0.9375rem;
 }
 
-.events__container2 p {
+.events__container4 p {
   width: 31.625rem;
   font-size: 1.0625rem;
   color: #333;
   font-weight: 400;
   line-height: 1.6875rem;
   font-family: "Roboto";
+}
+
+.events__container4 button {
+  position: absolute;
+  right: 6rem;
+  top: 5rem;
 }

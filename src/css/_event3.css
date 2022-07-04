@@ -1,17 +1,13 @@
 .events__container3 {
-  margin-top: 0;
+  margin-top: 2rem;
   padding-bottom: 2.9375rem;
-}
-
-.img__event3 {
-  margin-top: 5rem;
 }
 
 .event__box3 {
   position: absolute;
   right: 35rem;
   left: 39rem;
-  top: 42rem;
+  top: 35rem;
 }
 
 .events__container3 h2 {
@@ -53,27 +49,80 @@
   margin-top: 5rem;
 }
 
+.events__container3 h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.1875rem;
+  font-size: 0.9375rem;
+}
+
 .events__container3 button {
   position: absolute;
   right: 30rem;
-  top: 47rem;
-}
-
-.event__line3 {
-  position: relative;
-  width: 65vw;
-  margin-bottom: 0;
-  margin-top: 0;
-  top: 26vh;
+  top: 40rem;
 }
 
 .eventbox3__focus {
   position: absolute;
   left: 20.5rem;
   right: 20.5rem;
-  top: 34.4rem;
-  height: 35.2rem;
+  top: 31.4rem;
+  height: 37.4rem;
   width: 78rem;
   background-color: #33333314;
   margin: 8px auto;
+}
+
+.eventbox3__focus button {
+  position: absolute;
+  right: 9rem;
+  bottom: 5rem;
+  border: unset;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  letter-spacing: 0.1875rem;
+  color: var(--color-primary);
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.event3-location {
+  position: relative;
+  width: 31rem;
+  height: 10rem;
+  display: grid;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.event3-location i {
+  position: absolute;
+  top: 2.5rem;
+  color: var(--color-primary);
+}
+
+.event3-location h3 {
+  margin: 0;
+  margin-top: 0.25rem;
+  color: #333;
+  font-weight: 400;
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  line-height: 1.6875rem;
+  letter-spacing: 1px;
+}
+
+.event3-location h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.1875rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  color: black;
+  font-family: "Montserrat";
+  text-transform: uppercase;
 }

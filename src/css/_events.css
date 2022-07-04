@@ -1,3 +1,31 @@
 @import "./_event1.css";
 @import "./_event2.css";
 @import "./_event3.css";
+@import "./_event4.css";
+
+.events {
+  height: 1453px;
+  position: relative;
+}
+
+.event__line {
+  width: 65vw;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.event__line3 {
+  position: relative;
+  width: 65vw;
+  margin-bottom: 0;
+  margin-top: 0;
+  top: 35vh;
+}
+
+.event__line4 {
+  position: relative;
+  width: 65vw;
+  margin-bottom: 0;
+  margin-top: 0;
+  top: 31vh;
+}
