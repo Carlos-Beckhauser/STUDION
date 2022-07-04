@@ -1,0 +1,128 @@
+.events__container3 {
+  margin-top: 2rem;
+  padding-bottom: 2.9375rem;
+}
+
+.event__box3 {
+  position: absolute;
+  right: 35rem;
+  left: 39rem;
+  top: 35rem;
+}
+
+.events__container3 h2 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
+  line-height: 1.125rem;
+  color: var(--color-primary);
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+}
+
+.events__container3 h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.1875rem;
+  font-size: 0.9375rem;
+}
+
+.events__container3 p:nth-of-type(1) {
+  width: 31.625rem;
+  font-size: 1.0625rem;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.6875rem;
+  font-family: "Roboto";
+}
+
+.events__container3 p:nth-of-type(2) {
+  width: 49.75rem;
+  font-size: 1.0625rem;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.6875rem;
+  font-family: "Roboto";
+  margin-top: 5rem;
+}
+
+.events__container3 h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.1875rem;
+  font-size: 0.9375rem;
+}
+
+.events__container3 button {
+  position: absolute;
+  right: 30rem;
+  top: 40rem;
+}
+
+.eventbox3__focus {
+  position: absolute;
+  left: 20.5rem;
+  right: 20.5rem;
+  top: 31.4rem;
+  height: 37.4rem;
+  width: 78rem;
+  background-color: #33333314;
+  margin: 8px auto;
+}
+
+.eventbox3__focus button {
+  position: absolute;
+  right: 9rem;
+  bottom: 5rem;
+  border: unset;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  letter-spacing: 0.1875rem;
+  color: var(--color-primary);
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.event3-location {
+  position: relative;
+  width: 31rem;
+  height: 10rem;
+  display: grid;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.event3-location i {
+  position: absolute;
+  top: 2.5rem;
+  color: var(--color-primary);
+}
+
+.event3-location h3 {
+  margin: 0;
+  margin-top: 0.25rem;
+  color: #333;
+  font-weight: 400;
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  line-height: 1.6875rem;
+  letter-spacing: 1px;
+}
+
+.event3-location h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.1875rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  color: black;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}

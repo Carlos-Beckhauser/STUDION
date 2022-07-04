@@ -1,0 +1,49 @@
+.events__container4 {
+  position: relative;
+  top: 21rem;
+  height: 17.6875rem;
+  margin-top: 2rem;
+  padding-bottom: 2.9375rem;
+}
+
+.event__box4 {
+  position: absolute;
+  margin-top: 1.2rem;
+  left: 15rem;
+  top: 0;
+}
+
+.events__container4 h2 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
+  line-height: 1.125rem;
+  color: var(--color-primary);
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+}
+
+.events__container4 h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.1875rem;
+  font-size: 0.9375rem;
+}
+
+.events__container4 p {
+  width: 31.625rem;
+  font-size: 1.0625rem;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.6875rem;
+  font-family: "Roboto";
+}
+
+.events__container4 button {
+  position: absolute;
+  right: 6rem;
+  top: 5rem;
+}
