@@ -6,7 +6,6 @@
 /*Utilitários*/
 @import "./css/_variables.css";
 @import "./css/_base.css";
-@import "./css/_utils.css";
 @import "./css/_btn.css";
 
 /*Componentes Reaproveitados*/
@@ -19,3 +18,4 @@
 @import "./css/_contacts.css";
 @import "./css/_enterprise.css";
 @import "./css/_events.css";
+@import "./css/_testimonials.css";
