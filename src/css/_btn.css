@@ -13,8 +13,7 @@
 
 .btn--slide {
   position: absolute;
-  bottom: 17rem;
-  right: 47rem;
+  bottom: 0;
 }
 
 .btn:hover,

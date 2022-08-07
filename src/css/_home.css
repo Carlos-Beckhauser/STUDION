@@ -38,6 +38,8 @@
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
   margin: 0;
+  position: absolute;
+  padding-top: 2rem;
 }
 
 .slide__copy h2 {
@@ -48,6 +50,10 @@
 
 .slide__copy h2 span {
   display: block;
+}
+
+.slide__copy__container {
+  position: relative;
 }
 
 .slider__prev-arrow,
