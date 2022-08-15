@@ -11,7 +11,7 @@ $(document).ready(() => {
 
   const slickOptions = {
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 3100,
     dots: false,
     prevArrow:
       '<button type="button" class="slick-prev slider__prev-arrow">Previous</button>',
@@ -22,13 +22,13 @@ $(document).ready(() => {
 
   /*CAROUSEL TESTIMONIALS*/
 
-  const slickTestimonials = {
+  /*  const slickTestimonials = {
     autoplay: true,
     autoplaySpeed: 1000,
     dots: false,
   };
-
-  $(".testimonials").slick(slickTestimonials);
+  
+  $(".slider_testimonial").slick(slickTestimonials); */
 
   /*CONTADOR AUTOMATICO */
 

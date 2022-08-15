@@ -1,13 +1,13 @@
 .events__container3 {
+  position: relative;
+  height: 37.4rem;
   margin-top: 2rem;
-  padding-bottom: 2.9375rem;
 }
 
 .event__box3 {
   position: absolute;
-  right: 35rem;
-  left: 39rem;
-  top: 35rem;
+  left: 15rem;
+  top: 0;
 }
 
 .events__container3 h2 {
@@ -59,19 +59,26 @@
   font-size: 0.9375rem;
 }
 
-.events__container3 button {
+.event__box3 button {
   position: absolute;
-  right: 30rem;
-  top: 40rem;
+  right: -4rem;
+  top: 3rem;
+}
+
+.event3-location button {
+  position: absolute;
+  right: -3.4rem;
+  top: 2rem;
+  font-size: 16px;
+  letter-spacing: 2px;
 }
 
 .eventbox3__focus {
   position: absolute;
-  left: 20.5rem;
-  right: 20.5rem;
+  left: 1.5rem;
   top: 31.4rem;
-  height: 37.4rem;
-  width: 78rem;
+  height: 37rem;
+  width: 87.2rem;
   background-color: #33333314;
   margin: 8px auto;
 }
@@ -91,12 +98,8 @@
 
 .event3-location {
   position: relative;
-  width: 31rem;
+  width: 50rem;
   height: 10rem;
-  display: grid;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
 }
 
 .event3-location i {
@@ -114,6 +117,9 @@
   font-size: 0.875rem;
   line-height: 1.6875rem;
   letter-spacing: 1px;
+  position: absolute;
+  left: 4rem;
+  top: 4rem;
 }
 
 .event3-location h2 {
@@ -125,4 +131,7 @@
   color: black;
   font-family: "Montserrat";
   text-transform: uppercase;
+  position: absolute;
+  left: 4rem;
+  top: 3rem;
 }

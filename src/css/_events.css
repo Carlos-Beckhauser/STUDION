@@ -4,28 +4,28 @@
 @import "./_event4.css";
 
 .events {
-  height: 1453px;
+  height: 1434px;
   position: relative;
 }
 
 .event__line {
-  width: 65vw;
+  width: 95vw;
   margin-bottom: 0;
   margin-top: 0;
 }
 
 .event__line3 {
   position: relative;
-  width: 65vw;
+  width: 95vw;
   margin-bottom: 0;
   margin-top: 0;
-  top: 35vh;
+  top: -41px;
 }
 
 .event__line4 {
   position: relative;
-  width: 65vw;
+  width: 95vw;
   margin-bottom: 0;
   margin-top: 0;
-  top: 31vh;
+  top: -61px;
 }
