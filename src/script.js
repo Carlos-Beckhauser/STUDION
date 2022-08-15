@@ -11,22 +11,22 @@ $(document).ready(() => {
 
   const slickOptions = {
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 3100,
     dots: false,
-    prevArrow: '<button type="button" class="slick-prev ">Previous</button>',
-    nextArrow: '<button type="button" class="slick-next ">Next</button>',
+    prevArrow: '<button type="button" class="slick-prev slider__prev-arrow">Previous</button>',
+    nextArrow: '<button type="button" class="slick-next slider__next-arrow">Next</button>',
   };
   $(".slider").slick(slickOptions);
 
   /*CAROUSEL TESTIMONIALS*/
 
-  const slickTestimonials = {
+ /*  const slickTestimonials = {
     autoplay: true,
     autoplaySpeed: 1000,
     dots: false,
   };
 
-  $(".slider_testimonial").slick(slickTestimonials);
+  $(".slider_testimonial").slick(slickTestimonials); */
 
   /*CONTADOR AUTOMATICO */
 

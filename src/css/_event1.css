@@ -1,4 +1,5 @@
 .events__container {
+  position: relative;
   margin-top: 5rem;
   padding-bottom: 2.9375rem;
 }
@@ -34,13 +35,12 @@
 
 .event__box {
   position: absolute;
-  right: 35rem;
-  left: 39rem;
+  left: 15rem;
   top: 1rem;
 }
 
 .events__container button {
   position: absolute;
-  right: 30rem;
-  top: 6rem;
+  right: 2rem;
+  top: 4rem;
 }

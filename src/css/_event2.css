@@ -1,19 +1,19 @@
+.events__container2 {
+  position: relative;
+  margin-top: 2rem;
+  padding-bottom: 2.9375rem;
+}
+
 .event__box2 {
   position: absolute;
-  right: 35rem;
-  left: 39rem;
-  top: 18rem;
+  left: 15rem;
+  top: 1rem;
 }
 
 .events__container2 button {
   position: absolute;
-  right: 30rem;
-  top: 23rem;
-}
-
-.events__container2 {
-  margin-top: 2rem;
-  padding-bottom: 2.9375rem;
+  right: 2rem;
+  top: 4rem;
 }
 
 .events__container2 h2 {
