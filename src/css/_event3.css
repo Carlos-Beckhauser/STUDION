@@ -1,13 +1,15 @@
 .events__container3 {
   position: relative;
-  height: 37.4rem;
-  margin-top: 2rem;
+  height: 37rem;
+  max-width: 76rem;
+  padding: 2rem 3rem;
+  background-color: #0001;
 }
 
 .event__box3 {
   position: absolute;
-  left: 15rem;
-  top: 0;
+  left: 18rem;
+  top: 3rem;
 }
 
 .events__container3 h2 {
@@ -73,29 +75,6 @@
   letter-spacing: 2px;
 }
 
-.eventbox3__focus {
-  position: absolute;
-  left: 1.5rem;
-  top: 31.4rem;
-  height: 37rem;
-  width: 87.2rem;
-  background-color: #33333314;
-  margin: 8px auto;
-}
-
-.eventbox3__focus button {
-  position: absolute;
-  right: 9rem;
-  bottom: 5rem;
-  border: unset;
-  font-size: 0.9375rem;
-  font-weight: 700;
-  letter-spacing: 0.1875rem;
-  color: var(--color-primary);
-  font-family: "Montserrat";
-  text-transform: uppercase;
-}
-
 .event3-location {
   position: relative;
   width: 50rem;
@@ -134,4 +113,17 @@
   position: absolute;
   left: 4rem;
   top: 3rem;
+}
+
+.event3-location button {
+  position: absolute;
+  right: 9rem;
+  bottom: 5rem;
+  border: unset;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  letter-spacing: 0.1875rem;
+  color: var(--color-primary);
+  font-family: "Montserrat";
+  text-transform: uppercase;
 }
