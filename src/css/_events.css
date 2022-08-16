@@ -8,10 +8,22 @@
   position: relative;
 }
 
+/*Mobile*/
 .event__line {
-  width: 65vw;
-  margin-bottom: 0;
-  margin-top: 0;
+  position: absolute;
+  width: 89vw;
+  margin: 0 1.3rem;
+  top: 29rem;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .event__line {
+    width: 65vw;
+    position: unset;
+    top: unset;
+    margin: 0 1.3rem;
+  }
 }
 
 .event__line3 {
