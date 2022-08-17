@@ -15,13 +15,13 @@
 }
 
 /*Mobile*/
-.events__container img {
+.event1_img {
   margin-left: 6.5rem;
 }
 
 /*Desktop*/
 @media screen and (min-width: 1280px) {
-  .events__container img {
+  .event1_img {
     margin: 0;
   }
 }
