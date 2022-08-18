@@ -1,7 +1,7 @@
 /*Mobile*/
 .events__container2 {
   position: relative;
-  margin-top: 18.5rem;
+  margin-top: 19.5rem;
   padding-bottom: 2.9375rem;
 }
 /*Desktop*/
@@ -36,8 +36,8 @@
     top: 1rem;
   }
 }
-/*Mobile*/
 
+/*Mobile*/
 .events__container2 button {
   position: absolute;
   right: 5rem;
@@ -93,7 +93,7 @@
 
 /*Mobile*/
 .events__container2 p {
-  width: 20.625rem;
+  width: 21.625rem;
   font-size: 1.0625rem;
   color: #333;
   font-weight: 400;

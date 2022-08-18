@@ -3,9 +3,17 @@
 @import "./_event3.css";
 @import "./_event4.css";
 
+/*Mobile*/
 .events {
-  height: 1400px;
+  height: 2920px;
   position: relative;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .events {
+    height: 1400px;
+  }
 }
 
 /*Mobile*/
@@ -13,7 +21,7 @@
   position: absolute;
   width: 89vw;
   margin: 0 1.3rem;
-  top: 29rem;
+  top: 30.3rem;
 }
 
 /*Desktop*/
@@ -26,7 +34,9 @@
   }
 }
 
+/*Mobile*/
 .event__line3 {
+  visibility: hidden;
   position: relative;
   width: 65vw;
   margin-bottom: 0;
@@ -34,10 +44,26 @@
   top: 0;
 }
 
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .event__line3 {
+    visibility: unset;
+  }
+}
+
 .event__line4 {
+  visibility: hidden;
+
   position: relative;
   width: 65vw;
   margin-bottom: 0;
   margin-top: 0;
   top: -61px;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .event__line4 {
+    visibility: unset;
+  }
 }
