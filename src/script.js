@@ -22,13 +22,12 @@ $(document).ready(() => {
 
   /*CAROUSEL TESTIMONIALS*/
 
-  /*  const slickTestimonials = {
+  $().slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000,
-    dots: false,
-  };
-  
-  $(".slider_testimonial").slick(slickTestimonials); */
+    autoplaySpeed: 2000,
+  });
 
   /*CONTADOR AUTOMATICO */
 
