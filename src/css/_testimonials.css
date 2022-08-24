@@ -1,3 +1,34 @@
+.hero-Testimonial {
+  position: relative;
+  height: 34.625rem;
+}
+
+.hero__background-Testimonial {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*Mobile*/
+.hero__copy-Testimonial {
+  position: absolute;
+  bottom: 0;
+  right: 9.8rem;
+  width: 57vw;
+  padding: 5rem 1.875rem;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .hero__copy-Testimonial {
+    bottom: 0;
+    right: 0;
+    width: 54vw;
+  }
+}
+
 /*Mobile*/
 .hero__copy-Testimonial h2 {
   margin: 0;
@@ -11,8 +42,26 @@
 /*Desktop*/
 @media screen and (min-width: 1280px) {
   .hero__copy-Testimonial h2 {
-    font-size: 5.8rem;
+    font-size: 5.6rem;
     margin-bottom: 3rem;
+  }
+}
+
+/*Mobile*/
+.hero__copy-Testimonial h4 {
+  padding-left: 0.5rem;
+  color: var(--color-primary);
+  letter-spacing: 0.1875rem;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  width: 29ch;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .hero__copy-Testimonial h4 {
+    width: unset;
   }
 }
 
@@ -20,23 +69,25 @@
 .hero__copy-Testimonial p {
   margin: 0;
   font-size: 0.9375rem;
-  line-height: 1.5rem;
+  line-height: 1.875rem;
   color: var(--color-copy--alt);
   text-align: justify;
-  width: 19.625rem;
-}
-
-/*Mobile*/
-.h2_heroCopy-Testimonial {
-  font-size: 3.3rem;
-}
-
-/*Mobile*/
-.p_heroCopy-Testimonial {
-  color: #fff;
   width: 17rem;
   margin-left: 3rem;
 }
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .hero__copy-Testimonial p {
+    color: #fff;
+    width: 36.5rem;
+    margin-left: unset;
+  }
+}
+
+/*Seção Hero Copy criada somente para a página Testimonials.html*/
+
+/***********************/
 
 .testimonials {
   width: 100vw;
