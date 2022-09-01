@@ -7,13 +7,14 @@
 /*Mobile*/
 .footer__container {
   display: grid;
-  grid-template-columns: unset;
-  grid-template-rows: auto;
-  gap: 2rem;
   align-items: center;
   justify-items: center;
+
+  grid-template-columns: unset;
+  grid-template-rows: auto;
   justify-content: center;
-  padding: 3rem 0;
+  padding: 2rem 0;
+  gap: 2rem;
 }
 
 /*Desktop*/
@@ -31,8 +32,9 @@
 /*Mobile*/
 .footer,
 .logo-studion {
-  justify-self: center;
   margin: 0;
+
+  justify-self: center;
   padding-top: 1rem;
 }
 
@@ -56,8 +58,9 @@
 .footer__form {
   display: grid;
   place-items: center;
-  grid-template-columns: unset;
   gap: 1.25rem;
+
+  grid-template-columns: unset;
 }
 
 @media screen and (min-width: 1280px) {
