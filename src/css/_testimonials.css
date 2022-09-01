@@ -21,6 +21,9 @@
   padding: 0;
   padding-left: 1rem;
   padding-bottom: 2rem;
+  right: 9.8rem;
+  width: 57vw;
+  padding: 5rem 1.875rem;
 }
 
 /*Desktop*/
@@ -50,6 +53,9 @@
   .hero__copy-Testimonial h4 {
     width: unset;
     padding-left: 0.5rem;
+    bottom: 0;
+    right: 0;
+    width: 54vw;
   }
 }
 
@@ -70,7 +76,26 @@
   .hero__copy-Testimonial h2 {
     font-size: 5.5rem;
     margin: 0;
+    font-size: 5.6rem;
     margin-bottom: 3rem;
+  }
+}
+
+/*Mobile*/
+.hero__copy-Testimonial h4 {
+  padding-left: 0.5rem;
+  color: var(--color-primary);
+  letter-spacing: 0.1875rem;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  width: 29ch;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .hero__copy-Testimonial h4 {
+    width: unset;
   }
 }
 
@@ -81,6 +106,8 @@
   line-height: 1.875rem;
   text-align: justify;
 
+  color: var(--color-copy--alt);
+  text-align: justify;
   width: 17rem;
   margin-left: 3.3rem;
   color: #fff;
@@ -92,6 +119,9 @@
     width: 36.5rem;
     margin-left: unset;
     color: var(--color-copy--alt);
+    color: #fff;
+    width: 36.5rem;
+    margin-left: unset;
   }
 }
 
@@ -100,6 +130,8 @@
 /*********************************************/
 
 /*Mobile*/
+/***********************/
+
 .testimonials {
   width: 100vw;
   background-color: var(--color-primary);
