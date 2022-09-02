@@ -27,43 +27,51 @@
 /*Desktop*/
 @media screen and (min-width: 1280px) {
   .event__line {
-    width: 65vw;
+    width: 67.5vw;
+    margin-left: 20.8rem;
     position: unset;
     top: unset;
-    margin-left: 22.8rem;
   }
 }
 
 /*Mobile*/
 .event__line3 {
   visibility: hidden;
-  position: relative;
-  width: 65vw;
-  margin-bottom: 0;
-  margin-top: 0;
-  top: 0;
+ 
 }
 
 /*Desktop*/
 @media screen and (min-width: 1280px) {
   .event__line3 {
     visibility: unset;
+
+    position: relative;
+    width: 67.4vw;
+    left: 1.8rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    top: 0;
   }
 }
 
-.event__line4 {
-  visibility: hidden;
 
-  position: relative;
-  width: 65vw;
-  margin-bottom: 0;
-  margin-top: 0;
-  top: -61px;
+
+/*Mobile*/
+.event__line4 {
+    visibility: hidden;
 }
 
 /*Desktop*/
 @media screen and (min-width: 1280px) {
   .event__line4 {
     visibility: unset;
+
+    position: relative;
+    width: 67.4vw;
+    left: 1.8rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    top: -61px;
+    
   }
 }
