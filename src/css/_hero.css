@@ -17,7 +17,7 @@
   bottom: 0;
   right: 9.8rem;
   width: 57vw;
-  padding: 5rem 1.875rem;
+  padding: 5rem 2.6rem;
 }
 
 /*Desktop*/
@@ -41,7 +41,7 @@
 /*Desktop*/
 @media screen and (min-width: 1280px) {
   .hero__copy h2 {
-    font-size: 5.8rem;
+    font-size: 7.8rem;
     margin-bottom: 3rem;
   }
 }
@@ -68,17 +68,21 @@
 .hero__copy p {
   margin: 0;
   font-size: 0.9375rem;
-  line-height: 1.5rem;
-  color: var(--color-copy--alt);
   text-align: justify;
+
+  line-height: 1.5rem;
+  color: #fff;
   width: 19.625rem;
+  padding-right: 1rem;
 }
 
 /*Desktop*/
 @media screen and (min-width: 1280px) {
   .hero__copy p {
     line-height: 1.875rem;
+    color: var(--color-copy--alt);
     width: 37.625rem;
+    padding-right: unset;
   }
 }
 

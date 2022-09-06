@@ -1,22 +1,64 @@
+/*CONTACT_INFO CSS Rules below*/
+
+/*Mobile*/
 .contact {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: unset;
 }
 
-.contact h3 {
-  margin: 0;
-  margin-bottom: 1.875rem;
-  font-weight: 700;
-  font-size: 1.7rem;
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .contact {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-.contact__info h3:nth-of-type(2) {
-  margin-top: 3.75rem;
-}
-
-.contact__info,
-.contact__form {
+.contact__info {
   padding: 4rem 0;
+}
+
+/*Mobile*/
+.contact__info__container {
+  float: right;
+  padding-right: 7.125rem;
+  text-align: center;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .contact__info__container {
+    text-align: unset;
+  }
+}
+
+/*Mobile*/
+.contact h3:nth-of-type(1) {
+  margin: 0;
+  font-weight: 700;
+
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .contact h3:nth-of-type(1) {
+    font-size: 1.7rem;
+    margin-bottom: 1.875rem;
+  }
+}
+
+/*Mobile*/
+.contact h3:nth-of-type(2) {
+  margin-top: 3.75rem;
+  font-size: 1.3rem;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .contact h3:nth-of-type(2) {
+    font-size: 1.7rem;
+  }
 }
 
 .contact__info i {
@@ -24,13 +66,7 @@
   color: var(--color-primary);
 }
 
-.contact__info span,
-.contact__form label,
-.contact__form input {
-  display: block;
-}
-
-.contact__info span {
+.contact__nmb {
   font-weight: 800;
   display: grid;
   grid-template-columns: 1.5rem auto;
@@ -39,8 +75,36 @@
   line-height: 1.6875rem;
 }
 
-.contact__info span:nth-of-type(3) {
-  padding-bottom: 14rem;
+/*Mobile*/
+.contact__address {
+  padding-bottom: 1rem;
+  font-weight: 800;
+  display: grid;
+  grid-template-columns: 1.5rem auto;
+  gap: 0.625rem;
+  font-family: "Roboto";
+  line-height: 1.6875rem;
+
+  width: 22rem;
+  margin-left: 0.8rem;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .contact__address {
+    padding-bottom: 14rem;
+
+    width: unset;
+    margin-left: unset;
+  }
+}
+
+/*CONTACT_FORM CSS Rules below*/
+
+.contact__info span,
+.contact__form label,
+.contact__form input {
+  display: block;
 }
 
 .contact__info__container,
@@ -48,9 +112,8 @@
   width: 540px;
 }
 
-.contact__info__container {
-  float: right;
-  padding-right: 7.125rem;
+.contact__form {
+  padding: 4rem 0;
 }
 
 .contact__form {
