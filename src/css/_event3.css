@@ -1,7 +1,6 @@
 /*Mobile*/
 .events__container3 {
   position: relative;
-
   background-color: #0001;
 
   height: 69rem;
@@ -15,7 +14,6 @@
 /*Desktop*/
 @media screen and (min-width: 1280px) {
   .events__container3 {
-    position: relative;
     height: 35rem;
     width: 81rem;
     padding: 2rem 1.1rem;
@@ -85,6 +83,7 @@
   line-height: 1.125rem;
   letter-spacing: 0.1875rem;
   font-size: 0.9375rem;
+
   justify-content: center;
 }
 
@@ -97,15 +96,16 @@
 
 /*Mobile*/
 .events__container3 p:nth-of-type(1) {
-  width: 21.625rem;
-  margin-left: 0.875rem;
-  text-align: center;
-  margin-bottom: 8rem;
   font-size: 1.0625rem;
   color: #333;
   font-weight: 400;
   line-height: 1.6875rem;
   font-family: "Roboto";
+
+  width: 21.625rem;
+  margin-left: 0.875rem;
+  text-align: center;
+  margin-bottom: unset;
 }
 
 /*Desktop*/
@@ -114,22 +114,22 @@
     width: 31.625rem;
     margin-left: unset;
     text-align: unset;
-    margin-bottom: unset;
+    margin-bottom: 4.8rem;
   }
 }
 
 /*Mobile*/
 .events__container3 p:nth-of-type(2) {
-  width: 20.75rem;
-  margin-left: 1.3rem;
-  margin-top: 5rem;
-  text-align: justify;
   font-size: 1.0625rem;
   color: #333;
   font-weight: 400;
   line-height: 1.6875rem;
   font-family: "Roboto";
-  margin-top: 5rem;
+
+  width: 20.75rem;
+  margin-left: 1.3rem;
+  margin-top: 8rem;
+  text-align: justify;
 }
 
 /*Desktop*/
@@ -220,15 +220,18 @@
   font-size: 0.875rem;
   line-height: 1.6875rem;
   letter-spacing: 1px;
-  position: absolute;
-  left: 3rem;
   top: 4rem;
+  position: absolute;
+
+  left: 3rem;
+  text-align: center;
 }
 
 /*Desktop*/
 @media screen and (min-width: 1280px) {
   .event3-location h3 {
     left: 4rem;
+    text-align: unset;
   }
 }
 

@@ -32,7 +32,7 @@
 }
 
 /*Mobile*/
-.contact h3:nth-of-type(1) {
+.contact__info h3:nth-of-type(1) {
   margin: 0;
   font-weight: 700;
 
@@ -68,7 +68,6 @@
 
 .contact__nmb {
   font-weight: 800;
-  display: grid;
   grid-template-columns: 1.5rem auto;
   gap: 0.625rem;
   font-family: "Roboto";
@@ -79,7 +78,6 @@
 .contact__address {
   padding-bottom: 1rem;
   font-weight: 800;
-  display: grid;
   grid-template-columns: 1.5rem auto;
   gap: 0.625rem;
   font-family: "Roboto";
@@ -101,10 +99,21 @@
 
 /*CONTACT_FORM CSS Rules below*/
 
-.contact__info span,
 .contact__form label,
 .contact__form input {
   display: block;
+}
+
+/*Mobile*/
+.contact__info span {
+  display: block;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .contact__info span {
+    display: grid;
+  }
 }
 
 .contact__info__container,
@@ -121,13 +130,33 @@
   color: white;
 }
 
-.contact__form button {
-  float: right;
-  margin-top: 1.75rem;
+/*Mobile*/
+.contact__form__container {
+  padding-left: 1.125rem;
 }
 
-.contact__form__container {
-  padding-left: 7.125rem;
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .contact__form__container {
+    padding-left: 7.125rem;
+  }
+}
+
+/*Mobile*/
+.contact__form h3:nth-of-type(1) {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  margin-left: 2rem;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .contact__form h3:nth-of-type(1) {
+    margin-left: unset;
+  }
 }
 
 .contact__form label {
@@ -135,8 +164,8 @@
   padding-top: 1.5rem;
 }
 
+/*Mobile*/
 .contact__form input {
-  width: 100%;
   margin-bottom: 1.875rem;
   padding: 0.5rem 0;
   background: unset;
@@ -144,10 +173,38 @@
   border-bottom: 0.06rem solid #fff;
   color: #fff;
   font-size: 1.5rem;
+
+  width: 72%;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .contact__form input {
+    width: 100%;
+  }
 }
 
 .contact__form input:focus {
   outline: unset;
+}
+
+/*Mobile*/
+.contact__form button {
+  margin-top: 1.75rem;
+
+  float: unset;
+  position: relative;
+  left: 5rem;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .contact__form button {
+    float: right;
+
+    position: unset;
+    left: unset;
+  }
 }
 
 .maps,

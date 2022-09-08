@@ -20,15 +20,6 @@ $(document).ready(() => {
   };
   $(".slider").slick(slickOptions);
 
-  /*CAROUSEL TESTIMONIALS*/
-
-  $().slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-  });
-
   /*CONTADOR AUTOMATICO */
 
   setInterval(() => {
@@ -46,7 +37,7 @@ $(document).ready(() => {
 
   $(".counter__number").counterUp(counterOptions);
 
-  /*EMAIL NEWSLETTER */
+  /*EMAIL NEWSLETTER */ /*NOT WORKING*/
 
   $(".btn--submit").on("Click", () => {
     const email = $("#email").val();
