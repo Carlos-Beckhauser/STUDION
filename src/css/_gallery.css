@@ -9,7 +9,7 @@
 /*Desktop*/
 @media screen and (min-width: 1280px) {
   .gallery {
-    height: 103vh;
+    height: 113vh;
     width: unset;
   }
 }
