@@ -20,6 +20,15 @@ $(document).ready(() => {
   };
   $(".slider").slick(slickOptions);
 
+  /*TESTIMONIALS MENU*/
+
+  const slickOP = {
+    autoplay: true,
+    autoplaySpeed: 3100,
+    dots: true,
+  };
+  $().slick(slickOP);
+
   /*CONTADOR AUTOMATICO */
 
   setInterval(() => {

@@ -121,7 +121,6 @@
 
 /*Mobile*/
 .testimonial__container {
-  position: relative;
   display: grid;
   align-content: center;
   justify-items: center;
@@ -150,8 +149,8 @@
   color: #000000;
   font-weight: 700;
   font-family: "Montserrat";
-
-  font-size: 40px;
+  text-align: center;
+  font-size: 38px;
   width: 19rem;
   margin: 0;
   margin-top: 1rem;
@@ -163,18 +162,26 @@
     font-size: 50px;
     width: unset;
     margin: 0;
+    text-align: unset;
   }
 }
 
 .testimonial_subtitle {
   display: block;
-  text-align: right;
+  text-align: center;
   font-size: 16px;
   letter-spacing: 3px;
   color: #000000;
   font-weight: 500;
   font-family: "Montserrat";
   letter-spacing: 1px;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+  .testimonial_subtitle {
+    text-align: right;
+  }
 }
 
 /*Mobile*/
